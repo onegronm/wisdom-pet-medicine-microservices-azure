@@ -21,3 +21,8 @@ If you have a complex microservice that has logic implemented in the service cla
 - POCO entity classes
 - Domain entities with data + behavior
 - DDD patterns: domain entity, aggregate; aggregate root, value object; repository contracts/interfaces
+
+### Value objects
+- Do not require identity and identity tracking
+- They are immutable. You must provide the required values when the object is constructed and not allow them to change during the object's lifetime
+- Address, for example, is simply a complex value composed of country/region, street, city, etc., and has no identity in the domain
