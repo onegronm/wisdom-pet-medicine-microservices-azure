@@ -10,19 +10,32 @@ If you have a complex microservice that has logic implemented in the service cla
 ## Integration Event
 - A microservice publishes an integration event when something happens within its domain and another microservice needs to be aware of it.
 
-## Domain Layer
+## Domain or Application Core Layer
 - The domain model for a microservice or bounded context, reflects understanding of the business domain.
 - Responsible for representing concepts of the business and business rules.
 - Use and control state that reflects the business situation. It must capture the rules, behavior, business language, and constraints of the single Bounded Context.
-- Ideally, it must not take dependency on any other layer.
-- Captures data + behavior
-- Class library with domain entities
-- Domain entity model
-- POCO entity classes
-- Domain entities with data + behavior
-- DDD patterns: domain entity, aggregate; aggregate root, value object; repository contracts/interfaces
+- Class library with domain entities. Ideally, it must not take dependency on any other layer.
+- **Entities**
+- **Aggregates (groups of entities)**
+- **Interfaces**
+- **Domain Services**
+- **Specifications**
+- **Custom Exceptions and Guard Clauses**
+- **Domain Events and Handlers**
+
+## Entities
+- Domain entities with data + behavior.
+- Domain entity models are business model classes that are persisted.
 
 ### Value objects
-- Do not require identity and identity tracking
-- They are immutable. You must provide the required values when the object is constructed and not allow them to change during the object's lifetime
-- Address, for example, is simply a complex value composed of country/region, street, city, etc., and has no identity in the domain
+- Do not require identity and identity tracking.
+- They are immutable. You must provide the required values when the object is constructed and not allow them to change during the object's lifetime.
+- Address, for example, is simply a complex value composed of country/region, street, city, etc., and has no identity in the domain.
+
+## Infrastructure
+- Data access implementations, most commonly abstracted through the use of the Repository design pattern.
+- Repositories, DbContext, Migrations.
+
+## UI
+- No direct instantiation or static calls to infrastructure layer types.
+
