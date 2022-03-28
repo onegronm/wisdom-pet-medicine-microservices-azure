@@ -12,9 +12,11 @@ If you have a complex microservice that has logic implemented in the service cla
 
 ## Domain or Application Core Layer
 - The domain model for a microservice or bounded context, reflects understanding of the business domain.
+- Holds the business model, which includes entities, services, and interfaces.
 - Responsible for representing concepts of the business and business rules.
 - Use and control state that reflects the business situation. It must capture the rules, behavior, business language, and constraints of the single Bounded Context.
 - Class library with domain entities. Ideally, it must not take dependency on any other layer.
+- Include abstractions for operations that will be performed using Infrastructure, such as data access, file system access, network calls, etc.
 - **Entities**
 - **Aggregates (groups of entities)**
 - **Interfaces**
@@ -35,6 +37,8 @@ If you have a complex microservice that has logic implemented in the service cla
 ## Infrastructure
 - Data access implementations, most commonly abstracted through the use of the Repository design pattern.
 - Repositories, DbContext, Migrations.
+- Data access implementation types (Repositories).
+- Infrastructure-specific services (for example, FileLogger or SmtpNotifier).
 
 ## UI
 - No direct instantiation or static calls to infrastructure layer types.

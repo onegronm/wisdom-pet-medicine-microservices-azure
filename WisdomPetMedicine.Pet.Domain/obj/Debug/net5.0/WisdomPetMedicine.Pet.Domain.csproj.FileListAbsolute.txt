@@ -1,0 +1,15 @@
+/Users/omar.negronmontero/code/wisdom-pet-medicine-microservices-azure/WisdomPetMedicine.Pet.Domain/bin/Debug/net5.0/WisdomPetMedicine.Pet.Domain.deps.json
+/Users/omar.negronmontero/code/wisdom-pet-medicine-microservices-azure/WisdomPetMedicine.Pet.Domain/bin/Debug/net5.0/WisdomPetMedicine.Pet.Domain.dll
+/Users/omar.negronmontero/code/wisdom-pet-medicine-microservices-azure/WisdomPetMedicine.Pet.Domain/bin/Debug/net5.0/WisdomPetMedicine.Pet.Domain.pdb
+/Users/omar.negronmontero/code/wisdom-pet-medicine-microservices-azure/WisdomPetMedicine.Pet.Domain/bin/Debug/net5.0/WisdomPetMedicine.Common.dll
+/Users/omar.negronmontero/code/wisdom-pet-medicine-microservices-azure/WisdomPetMedicine.Pet.Domain/bin/Debug/net5.0/WisdomPetMedicine.Common.pdb
+/Users/omar.negronmontero/code/wisdom-pet-medicine-microservices-azure/WisdomPetMedicine.Pet.Domain/obj/Debug/net5.0/WisdomPetMedicine.Pet.Domain.csproj.AssemblyReference.cache
+/Users/omar.negronmontero/code/wisdom-pet-medicine-microservices-azure/WisdomPetMedicine.Pet.Domain/obj/Debug/net5.0/WisdomPetMedicine.Pet.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/omar.negronmontero/code/wisdom-pet-medicine-microservices-azure/WisdomPetMedicine.Pet.Domain/obj/Debug/net5.0/WisdomPetMedicine.Pet.Domain.AssemblyInfoInputs.cache
+/Users/omar.negronmontero/code/wisdom-pet-medicine-microservices-azure/WisdomPetMedicine.Pet.Domain/obj/Debug/net5.0/WisdomPetMedicine.Pet.Domain.AssemblyInfo.cs
+/Users/omar.negronmontero/code/wisdom-pet-medicine-microservices-azure/WisdomPetMedicine.Pet.Domain/obj/Debug/net5.0/WisdomPetMedicine.Pet.Domain.csproj.CoreCompileInputs.cache
+/Users/omar.negronmontero/code/wisdom-pet-medicine-microservices-azure/WisdomPetMedicine.Pet.Domain/obj/Debug/net5.0/WisdomPetMedicine.Pet.Domain.csproj.CopyComplete
+/Users/omar.negronmontero/code/wisdom-pet-medicine-microservices-azure/WisdomPetMedicine.Pet.Domain/obj/Debug/net5.0/WisdomPetMedicine.Pet.Domain.dll
+/Users/omar.negronmontero/code/wisdom-pet-medicine-microservices-azure/WisdomPetMedicine.Pet.Domain/obj/Debug/net5.0/refint/WisdomPetMedicine.Pet.Domain.dll
+/Users/omar.negronmontero/code/wisdom-pet-medicine-microservices-azure/WisdomPetMedicine.Pet.Domain/obj/Debug/net5.0/WisdomPetMedicine.Pet.Domain.pdb
+/Users/omar.negronmontero/code/wisdom-pet-medicine-microservices-azure/WisdomPetMedicine.Pet.Domain/obj/Debug/net5.0/ref/WisdomPetMedicine.Pet.Domain.dll
